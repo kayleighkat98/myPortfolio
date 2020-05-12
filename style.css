@@ -34,7 +34,7 @@ header{
 	margin:0;
 }
 body{
-	background-image: url(images/full-bloom.png);
+	background-image: url(full-bloom.png);
 	margin: 0;
 }
 
@@ -82,7 +82,7 @@ nav{
 }
 .title{
 
-	background-image: url(images/wild-sea.png);
+	background-image: url(wild-sea.png);
 	background-repeat: repeat;
 	background-position:center center;
 	background-size:100px, 0;
@@ -90,7 +90,7 @@ nav{
 }
 .headshot{
 	height:400px;
-	background-image:url(images/fullSizeKevin.jpg);
+	background-image:url(fullSizeKevin.jpg);
 	background-repeat:no-repeat;
 	background-position:center center;
 	margin:100px,0;
