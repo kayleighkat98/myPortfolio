@@ -1,142 +1,148 @@
-<!--Notes 
-header
-	change background
-	change font
-	add link
-	center text
-	change color with hover(refer to More Web El.-text link rollovers)
-title
-	change font
-	move to lower right corner
-Contact-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Kayleigh Young: Software Developer</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width">
+	<title>Kayleigh Young: Software Developer</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<body><!--anchor the '#' calls into the page so the page goes to the right place-->
+
+<body>
 	<header>
-		<nav> 
+
+		<div class="title">
+			<h1>Kayleigh Young<br><small>Software Developer</small></h1>
+		</div>
+
+		<nav>
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
 			<a href="#portfolio">Portfolio</a>
 			<a href="#services">Services</a>
 			<a href="#contact">Contact</a>
 		</nav>
+
+		<img src="images/fullSizeKevin.jpg" alt="Headshot" width="500" height="500">
+
 	</header>
 
 	<main>
-		<div class="title">
-			<div class="name">
-				<h1>Kayleigh Young<br>
-				<small>Software Developer</small></h1>
-			</div>
-		</div>
-
-		<div class="headshot"></div>
-
-		<section class="wrapperA" id="home"><!--keeps title align with text-->
-			<div class="gap-sm"></div><!--adds gap to the paper-->
+		<section class="wrapperA" id="home">
 			<h2>Meet Kayleigh</h2>
-			<div class="cont"><!--gives a background to text-->
-			 <p> I am new to software engineering but I am learning quick. I am 21 years old, I live in Dallas TX, and I graduated high school when I was 16. Graduating early could've been a blessing but I was too naieve to take advantage of my momentum and I let life get in the way. So far, it seems my brain is just as sharp as it was years ago but I am definetly needing refreshing on some topics. Take a look below to see how far I've come.</p>
+			<div class="cont">
+				<!--gives a background to text-->
+				<p> I am new to software engineering but I am learning quick. I am 21 years old, I live in Dallas TX,
+					and I graduated high school when I was 16. Graduating early could've been a blessing but I was too
+					naieve to take advantage of my momentum and I let life get in the way. So far, it seems my brain is
+					just as sharp as it was years ago but I am definetly needing refreshing on some topics. Take a look
+					below to see how far I've come.</p>
 			</div>
 		</section>
-	 <br>	
-	 <div class="gap-sm"></div><!--small gap-->
+
 
 		<!--About-->
-	 <section class="wrapperA" id="about"><!--keeps title align with text-->
-	  	<h2>About Kayleigh</h2>
-			<div class="cont"> <!--text background-->
-				<div class="wrapperB"><!--keeps intrest list align and separate from closing paragraph-->
-				<section><!--i use this to separate the coloms horozontily-->
-					<h3>Languages</h3>
-					<ul><!--unordered list- comes in bullets that are customizable-->
-						<li>JavaScript</li><!--list item-->
-						<li>HTML</li>
-						<li>C++</li>
-					</ul>
-				</section>
-				<section>
-					<h3>Hobbies</h3>
-					<ul>
-						<li>Spending time with my dog</li>
-						<li>Karaoke</li>
-						<li>Hikes</li>
-					</ul>	
-				</section>
-				<section>
-					<h3>Strengths</h3>
-					<ol><!--ordered list- comes in numbers-->
-						<li>Strong desire to succeed</li>
-						<li>Avid Google searcher</li>
-						<li>Creative eye</li>
-					</ol>
-				</section>
+		<section class="wrapperA" id="about">
+			<!--keeps title align with text-->
+			<h2>About Kayleigh</h2>
+			<div class="cont">
+				<!--text background-->
+				<div class="item">
+					<section >
+						<h3>Languages</h3>
+						<ul>
+							<li>JavaScript</li>
+							<li>HTML</li>
+							<li>C++</li>
+						</ul>
+					</section>
+					<section >
+						<h3>Hobbies</h3>
+						<ul>
+							<li>Spending time with my dog</li>
+							<li>Karaoke</li>
+							<li>Hikes</li>
+						</ul>
+					</section>
+					<section >
+						<h3>Strengths</h3>
+						<ol>
+							<li>Strong desire to succeed</li>
+							<li>Avid Google searcher</li>
+							<li>Creative eye</li>
+						</ol>
+					</section>
 				</div>
-				<div class="wrapperB">
-					<p>What I love about web development is how intricately simple the languages are. The most complicated tasks can have a very simple solution if you look at it the right way. I look forward to working on a team and getting to learn new ways to solve problems through other peoples viewpoints.</p>
+
+				<div>
+					<p>What I love about web development is how intricately simple the languages are. The most
+						complicated tasks can have a very simple solution if you look at it the right way. I look
+						forward to working on a team and getting to learn new ways to solve problems through other
+						peoples viewpoints.</p>
 				</div>
 			</div>
 		</section>
-	 <br>
-	 <div class="gap-sm"></div>
 
 		<section class="wrapperA" id="portfolio">
 			<h2>Kayleigh's Work</h2>
 			<div class="cont">
-					<a href="https://repl.it/@KayleighYoung/Nested-Practice-2" target="_blank">Nested Practice</a>
-					<p> In this assignment I practiced updating CSS code in multiple parts of the page</p>
+				<ul>
+					<li><a href="https://repl.it/@KayleighYoung/Nested-Practice-2" target="_blank">Nested
+							Practice</a><br>
+						<p> In this assignment I practiced updating CSS code in multiple parts of the page</p>
+					</li>
+					<li><a href="https://kayleighkat98.github.io/Coffee-Fun/" target="_blank">Coffee Fun</a><br>
+						<p>In this project I took an already made template and adjusted the layout by implementing
+							attributes such as flex-box and media query. I also improved the readability.</p>
+					</li>
+				</ul>
 			</div>
 		</section>
-	 <br>
-	 <div class="gap-sm"></div>
 
-	 <section class="wrapperA" id="services">
-		 <div class="gap-sm"></div>
-		 <h2>Future Available Services</h2>
-		 <div class="cont">
-			 <p> Below are skills that I plan to aquire in the upcoming months</p>
-			 <ul>
-				 <li>Multilingual</li>
-				 <li>Security Enhancement</li>
-				 <li>API integration</li>
-				 <li>Performance Enhancement</li>
-				 <li>Cloud computing platforms</li>
-				 <li>RESTful web API principles</li>
-			  </ul>
+		<section class="wrapperA" id="services">
+			<h2>Future Available Services</h2>
+			<div class="cont">
+				<p> Below are skills that I plan to aquire in the upcoming months</p>
+				<ul>
+					<li>Multilingual</li>
+					<li>Security Enhancement</li>
+					<li>API integration</li>
+					<li>Performance Enhancement</li>
+					<li>Cloud computing platforms</li>
+					<li>RESTful web API principles</li>
+				</ul>
 			</div>
 		</section>
-	 <br>
-	 <div class="gap-sm"></div>
 
-	 <section class="wrapperA" id="contact">
-		 <h2>Contact Kayleigh</h2>
-		 <div class="cont">
-		   <p>I am available for hire for both contract work and full time positions</p>
-		   <!--insert email, github, and linked in link-->
-		   <a href="https://github.com/kayleighkat98"  target="_blank">GitHub</a><!--links to github on another page-->
-		   <a href="https://www.linkedin.com/in/kayleigh-young-064191ab/" target="_blank">LinkedIn</a><!--links to linkedin on another page-->
-		   <a href="mailto:kyoung.communications@gmail.com" target="_blank">Email Me</a><!--links to email on another page-->
-	     <!--insert map of dallas-->
-	     <br>
-	     	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429176.3306906786!2d-97.01173099781205!3d32.820352497037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1588618332011!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<section class="wrapperA" id="contact">
+			<h2>Contact Kayleigh</h2>
+			<div class="cont">
+				<p>I am available for hire for both contract work and full time positions</p>
+				<!--insert email, github, and linked in link-->
+				<a href="https://github.com/kayleighkat98" target="_blank">GitHub</a>
+				<!--links to github on another page-->
+				<a href="https://www.linkedin.com/in/kayleigh-young-064191ab/" target="_blank">LinkedIn</a>
+				<!--links to linkedin on another page-->
+				<a href="mailto:kyoung.communications@gmail.com" target="_blank">Email Me</a>
+				<!--links to email on another page-->
+				<!--insert map of dallas-->
+				<br>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429176.3306906786!2d-97.01173099781205!3d32.820352497037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1588618332011!5m2!1sen!2sus"
+					width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+					tabindex="0"></iframe>
 			</div>
-	  </section>
-	
+		</section>
+
 	</main>
 
 	<footer>
 		<div class="wrapperA">
-			<div class="gap-footer"></div>
 			<p>Copyright</p>
 		</div>
 	</footer>
 
-<script src="script.js"></script>
+	<script src="script.js"></script>
 </body>
+
 </html>
