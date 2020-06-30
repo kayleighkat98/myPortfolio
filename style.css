@@ -6,118 +6,142 @@
 (h1)font-family: 'Spartan', sans-serif;
 (h2)font-family: 'Sacramento', cursive;*/
 
-h1{
-	font-family:'Spartan',sans-serif;
+/* Mobile */
+/* || text styling*/
+h1 {
+	font-family: 'Spartan', sans-serif;
 	font-size: 48px;
-	color:white;
-	-webkit-text-stroke:2px black;/*adds outline*/
+	color: white;
 }
-h2{
-	font-family:'Sacramento', cursive;
+
+h2 {
+	font-family: 'Sacramento', cursive;
 }
-a{
-	font-family:'Josefin Sans', sans-serif;
+
+a {
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
 }
-p, a, li{
-	font-family:'Faustina', serif;
-}
-li{
-	font-size:15px;
-}
-p{
-	font-size:20px;
-}
-/*----Structure----*/
-header{
 
-	margin:0;
+p,
+a,
+li {
+	font-family: 'Faustina', serif;
 }
-body{
+
+li {
+	font-size: 15px;
+	
+}
+
+p {
+	font-size: 20px;
+}
+
+/*|| Structure */
+
+
+body {
 	background-image: url(images/full-bloom.png);
 	margin: 0;
 }
 
 
-.wrapperA{
-	width:1200px;
-	margin:auto;
+.wrapperA {
+	width: 75%;
+	height: auto;
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-.wrapperB{
-	width:1160px;
-	margin:auto;
+.item {
+	display: flex ;
+	flex-direction: column;
+	justify-content: center;
 }
-h2{
-	text-align: left;
-}
-/*----Elements----*/
-a:link {color:black;}
-a:visited{color: white;}
-a:hover{color:gray;}
-a:active{ color:#FFBF53;}
 
-/*----Spacers----*/
-.gap-sm{
-	height:50px;
-	width:auto;
+/*--Elements----*/
+a {
+	text-decoration: none;
 }
-.gap-md{
-	height:100px;
-	width:auto;
+nav a:link {
+	color: wheat;
 }
-.gap-lg {
-	height: 200px;
-	width:auto;
+
+nav a:visited {
+	color: wheat;
 }
-.gap-footer{
-	height:10px;
-	width:auto;
+
+nav a:hover {
+	color: gray;
 }
+
+nav a:active {
+	color: #FFBF53;
+}
+
+
+
 /*-----Layout----*/
-nav{
-	background-color:#FF9631;
-	text-align:center;
-}
-.title{
-
-	background-image: url(images/wild-sea.png);
-	background-repeat: repeat;
-	background-position:center center;
-	background-size:100px, 0;
-
-}
-.headshot{
-	height:400px;
-	background-image:url(images/fullSizeKevin.jpg);
-	background-repeat:no-repeat;
-	background-position:center center;
-	margin:100px,0;
-}
-iframe{
-	width:500px;
-}
-.cont{
-	background-color:rgb(255, 205, 94);
-	padding:20px;
-	border-radius:25px;
-	margin:auto;
-}
-
-section{
-	float:left;
-	padding:10px;
-}
-section h3{
-	text-align:center;
-	margin:auto;
-}
-section li{
-	text-align:left;
-	margin:auto;
-}
-.title .name{
+nav {
+	background-color: #FF9631;
 	text-align: center;
-	margin:inherit;
+}
+
+header {
+	background-image: linear-gradient(
+		to bottom, transparent, #FAFAFA
+	  ), url("images/wild-sea.png");
+	background-repeat: repeat;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+iframe {
+	width: 100%;
+	
+}
+
+.cont {
+	background-color: rgb(255, 205, 94);
+	padding: 20px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+section {
+	
+	padding: 10px;
+}
+
+section h3 {
+	text-align: center;
+	margin: auto;
+}
+
+section li {
+	text-align: left;
+	margin: auto;
+}
+
+.title h1 {
+	text-align: center;
+	margin: inherit;
 }
 
 
+/* Desktop */
+@media all and (min-width: 1000px){
+	.item {
+		flex-direction: row;
+	}
+}
